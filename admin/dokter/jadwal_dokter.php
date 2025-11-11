@@ -1,4 +1,10 @@
 <?php
+session_start();
+if (!isset($_SESSION['admin'])) {
+    header("Location: ../login.php?msg=error&text=Silakan login terlebih dahulu!");
+    exit;
+}
+
 include '../../config/koneksi.php';
 include '../../admin/header_admin.php'; // Pastikan header hanya navbar, tanpa <html>/<body>
 
