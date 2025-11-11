@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <style>
     /* 🔹 Atur background image */
     body {
-        background-image: url('../assets/logo.jpg'); /* ganti path sesuai lokasi gambarnya */
+        background-image: url('/portal-berita/assets/img/klinik.jpeg'); /* ganti path sesuai lokasi gambarnya */
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
